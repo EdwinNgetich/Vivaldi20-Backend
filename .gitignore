@@ -272,9 +272,11 @@ dump.rdb
 
 ### Project template
 media/
+*.zip
 
 .pytest_cache/
 .ipython/
 .env
 .envs/*
 !.envs/.local/
+db.sqlite3
